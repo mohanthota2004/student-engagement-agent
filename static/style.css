@@ -1,0 +1,10 @@
+
+:root{--bg:#f7f8fb;--card:#ffffff;--accent:#4f46e5;--muted:#6b7280;}
+body{font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);margin:0;padding:32px;}
+.container{max-width:900px;margin:0 auto;}
+h1{color:var(--accent);margin-bottom:8px;}
+form{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06);}
+textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #e6e9ef;resize:vertical;font-size:14px;}
+button{background:var(--accent);color:white;padding:10px 14px;border:none;border-radius:8px;margin-top:8px;cursor:pointer;}
+.card{margin-top:16px;padding:14px;background:var(--card);border-radius:10px;box-shadow:0 6px 12px rgba(15,23,42,0.04);}
+pre{white-space:pre-wrap;word-wrap:break-word;}

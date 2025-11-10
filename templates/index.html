@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Engagement Agent</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Engagement & Participation — Agent</h1>
+    <form id="engageForm">
+      <label for="text">Paste forum thread or student message:</label>
+      <textarea id="text" name="text" rows="8" placeholder="Type or paste conversation text..."></textarea>
+      <button type="submit">Analyze</button>
+    </form>
+    <div id="result" class="card" hidden>
+      <h2>Result</h2>
+      <pre id="jsonOut"></pre>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
