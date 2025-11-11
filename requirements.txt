@@ -1,6 +1,7 @@
 fastapi
 uvicorn
 pandas
-scikit-learn
 numpy
-langchain-openai
+langchain
+openai
+python-dotenv
